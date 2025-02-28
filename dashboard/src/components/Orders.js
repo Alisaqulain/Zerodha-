@@ -8,7 +8,7 @@ const Orders = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const BASE_URL = "https://zerodha-clone-backensd.onrender.com"; // Your Render backend URL
+    const BASE_URL = "https://zerodha-50bf.onrender.com/"; // Your Render backend URL
 
     axios
       .get(`${BASE_URL}/orders`) // Adjusted URL to point to the deployed backend
